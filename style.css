@@ -1,0 +1,76 @@
+
+.grid-container{
+  display:grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 15px;
+  row-gap: 10px;
+  margin-top:10px;
+  align-items:center;
+}
+#todo-input{
+  font-size: 15px;
+  padding:10px 5px;
+  cursor: pointer;
+}
+#todo-date{
+  font-size: 15px;
+  padding:10px 5px;
+  cursor: pointer;
+}
+
+.btn-dlt{
+background-color: rgb(212, 14, 14);
+color:white;
+border:none;
+border-radius: 10px;
+padding:15px 0px;
+cursor:pointer;
+}
+.btn-todo{
+  background-color: rgb(29, 150, 29);
+  /* color:white; */
+  border:none;
+  border-radius: 10px;
+  padding:15px 0px;
+  cursor:pointer;
+  }
+
+  /* body,html{
+   background-image: url("https://images.unsplash.com/photo-1612367980327-7454a7276aa7?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+   background-position: center;
+   background-size: cover;
+   height: 100%;
+   width:100%;
+  } */
+  .nav,h1{
+    width:220%;
+    height:40;
+    /* background-color: goldenrod; */
+    justify-content: center;
+    background-size: cover;
+
+  }
+#heading{
+    justify-content: center;
+    padding : 50px;
+  }
+  #nav{
+    height:60px;
+    width:480px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding:0px 30px; */
+    background: rgb(229, 176, 32);
+    border-radius: 15px;
+  }
+
+h1{
+  padding-top: 10px;
+  padding-left:  140px;
+ margin-left: 10px;
+
+}
+body{
+  margin-left: 30%;
+}
